@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Inconsolata&family=Poppins:ital@1&display=swap");
+
+:root {
+  --primary-dark: #11178f;
+  --primary-green: #6ee7b7;
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: var(--primary-green);
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-number {
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-green);
+  border-color: cornflowerblue;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 250px;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  color: crimson;
+  border-top-right-radius: 1rem;
+  margin-left: 2rem;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
